@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69978" started-at="2018-03-19T17:11:19Z" finished-at="2018-03-19T17:12:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69978" started-at="2018-03-19T17:11:19Z" finished-at="2018-03-19T17:12:29Z">
+      <class name="tests.FreeCRMRunner">
+        <test-method status="PASS" signature="gettingData()[pri:0, instance:tests.FreeCRMRunner@dc24521]" name="gettingData" duration-ms="69921" started-at="2018-03-19T22:41:19Z" finished-at="2018-03-19T22:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingData -->
+      </class> <!-- tests.FreeCRMRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

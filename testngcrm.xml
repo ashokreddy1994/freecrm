@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="uid" value="ashokreddy"></parameter>
+  <parameter name="pwd" value="ashokreddy"></parameter>
+  
+  
+    <classes>
+      <class name="tests.TestngCRM"/>
+    </classes>
+  </test> 
+   <test thread-count="5" name="Test1">
+  <parameter name="uid" value="ashokreddy123"></parameter>
+  <parameter name="pwd" value="ashokreddy"></parameter>
+    <classes>
+      <class name="tests.TestngCRM"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
