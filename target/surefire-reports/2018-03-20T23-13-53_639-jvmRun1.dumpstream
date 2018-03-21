@@ -1,0 +1,17 @@
+# Created on 2018-03-20T23:14:27.427
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-03-20T23:14:28.764
+Unexpected IOException: 8,1,tests.TestngCRM,gettingData(tests.TestngCRM),null,can not find P(crm.png) S: 0.7 in S(0)[0\002C0 1366x768],null,can not find P(crm.png) S: 0.7 in S(0)[0\002C0 1366x768],TestngCRM.gettingData:39 \00BB FindFailed can not find P(crm.png) S: 0.7 in S(0)[0...,org.sikuli.script.FindFailed: can not find P(crm.png) S: 0.7 in S(0)[0\002C0 1366x768]\000A\0009at tests.TestngCRM.gettingData(TestngCRM.java:39)\000A
+
+
+# Created on 2018-03-20T23:14:28.893
+Unexpected IOException: 5,1,tests.TestngCRM,gettingData(tests.TestngCRM),tests.TestngCRM,null,null
+
+

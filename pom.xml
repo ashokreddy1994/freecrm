@@ -3,8 +3,28 @@
   <groupId>durgasoft</groupId>
   <artifactId>durgasoft</artifactId>
   <version>1-SNAPSHOT</version>
+  <build>
+  <plugins>
+    
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.21.0</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>D:\Batch235\freecrm\testngcrm.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+</plugins>
+</build>
   <dependencies>
-  
+  <dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-surefire-plugin</artifactId>
+  <version>2.21.0</version>
+  <type>maven-plugin</type>
+</dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
